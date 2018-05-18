@@ -1,0 +1,216 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>欢迎来到BIMD！</title>
+<link rel="icon" href="res/wmcte.ico" type="image/x-icon" />
+ <link rel="shortcut icon" href="res/wmcte.ico" type="image/x-icon" />
+<style type="text/css">
+<!--
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #DCDCDC;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+/* ~~ 元素/标签选择器 ~~ */
+ul, ol, dl { /* 由于浏览器之间的差异，最佳做法是在列表中将填充和边距都设置为零。为了保持一致，您可以在此处指定需要的数值，也可以在列表所包含的列表项（LI、DT 和 DD）中指定需要的数值。请注意，除非编写一个更为具体的选择器，否则您在此处进行的设置将会层叠到 .nav 列表。 */
+	padding: 0 0 0 5px;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-bottom: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	line-height: 28px;
+	width: auto;
+	font-size: 16px;
+}
+a img { /* 此选择器将删除某些浏览器中显示在图像周围的默认蓝色边框（当该图像包含在链接中时） */
+	border: none;
+}
+/* ~~ 站点链接的样式必须保持此顺序，包括用于创建悬停效果的选择器组在内。 ~~ */
+a:link {
+	color: #000000;
+	text-decoration: none; /* 除非将链接设置成极为独特的外观样式，否则最好提供下划线，以便可从视觉上快速识别 */
+}
+a:visited {
+	color: #000000;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* 此组选择器将为键盘导航者提供与鼠标使用者相同的悬停体验。 */
+	text-decoration: none;
+}
+
+/* ~~ 此固定宽度容器包含其它 div ~~ */
+.container {
+	width: 960px;
+	background-color: #FFF;
+	margin: 0 auto; /* 侧边的自动值与宽度结合使用，可以将布局居中对齐 */
+}
+
+/* ~~ 标题未指定宽度。它将扩展到布局的完整宽度。标题包含一个图像占位符，该占位符应替换为您自己的链接徽标 ~~ */
+.header {
+	background-color: #ADB96E;
+}
+
+/* ~~ 这是布局信息。 ~~ 
+
+1) 填充只会放置于 div 的顶部和/或底部。此 div 中的元素侧边会有填充。这样，您可以避免使用任何“方框模型数学”。请注意，如果向 div 自身添加任何侧边填充或边框，这些侧边填充或边框将与您定义的宽度相加，得出 *总计* 宽度。您也可以选择删除 div 中的元素的填充，并在该元素中另外放置一个没有任何宽度但具有设计所需填充的 div。
+
+*/
+ 
+.left{ width:200px;  float:left; _margin-right:-3px; background-color: white;}  
+.main{ width:760px; float:left; line-height: 28px;background-color: white;word-wrap:break-word;}   
+.content {
+	padding: 1px 0;
+	
+}
+
+.MenuBarHorizontal {
+    height: 80px;
+	margin: 0 auto;
+}
+.MenuBarHorizontal li.current a{
+	background: #306FAD;
+}
+
+.text {
+	padding: 0px 20px 10px 20px;
+	line-height: 28px;
+	margin-left: 20px;
+	width: auto;
+	font-size: 16px;
+}
+.text1 {
+	padding: 0px 35px 10px 35px;
+	margin: 20 px;
+	line-height: 30px;
+	width: 200px;
+	font-size: 16px;
+}
+.foot {
+	margin-top: 0px;
+	margin-bottom: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+	line-height: 23px;
+	font-size: 12px;
+}
+.w1{
+	width:200px;
+	height:200px;
+	}
+	
+.pic{
+	visibility: hidden;
+}
+
+.footer {
+	padding: 10px 0;
+	background-color: rgba(75,127,185,1.00);
+	font-size: 12px;
+}
+
+/* ~~ 其它浮动/清除类 ~~ */
+.fltrt {  /* 此类可用于在页面中使元素向右浮动。浮动元素必须位于其在页面上的相邻元素之前。 */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* 此类可用于在页面中使元素向左浮动。浮动元素必须位于其在页面上的相邻元素之前。 */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* 如果从 #container 中删除或移出了 #footer，则可以将此类放置在 <br /> 或空 div 中，作为 #container 内最后一个浮动 div 之后的最终元素 */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+-->
+</style>
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+</head
+
+<body>
+<div class="container">
+  <div class="header"><a href="#"><img src="res/logo.jpg" name="Insert_logo" width="960" height="140" id="Insert_logo" style="background-color: #C6D580; display:block;" /></a> 
+    <!-- end .header --></div>
+<div class="content">
+    <ul id="MenuBar1" class="MenuBarHorizontal">
+      <li>
+        <div align="center"><a href="index.html">Home</a></div>
+      </li>
+      <li>
+        <div align="center"><a href="Research.html">Research</a></div>
+      </li>
+      <li>
+        <div align="center"><a href="Paper.html">Paper</a></div>
+      </li>
+      <li class="current">
+        <div align="center"><a href="People.html">People</a></div>
+      </li>
+      <li>
+        <div align="center"><a href="Photo.html">Photo</a></div>
+      </li>
+      <li>
+        <div align="center"><a href="Contactus.html">Contact us</a></div>
+      </li></ul>
+  </div>
+  <div class="left">
+    <p><a href="People.html"><u>教师成员 Teacher</u></a></p>
+    <p style="line-height: 50%"><font color="green"><a href="People.html">顾忠泽</font></a> <a href="zhaoxiangwei.html"><font color="green">赵祥伟</font> </a><a href="geliqing.html">葛丽芹</a> </p>
+    <p style="line-height: 50%"><a href="xuhua.html">徐华</a> <a href="xiezhuoying.html">谢卓颖 </a><a href="zhujijun.html">朱纪军</a></p>
+	<p style="line-height: 50%"><a href="zhucun.html">朱存</a> <a href="duxing.html">杜鑫</a> <a href="cuixingran.html">崔兴然</a></p> 
+	<p style="line-height: 50%"><a href="guhongcheng.html">顾洪成 </a><a href="chenzaozao.html">陈早早</a> <a href="weihongmei.html">魏红梅</a></p> 
+    <p><font color="green"><a href="Student.html"><u>学生成员 Student</u></a></font></p>
+
+    <p><font color="green"><a href="Studentgra.html"><u>已毕业成员 Alumni</u></a></font></p>
+  </div>  
+		<div class="main">
+			<p style="text-align: center;"><img src="res/teacherphoto/zhaoxiangwei.jpg" width="350" height="218" alt=""></p>
+			<p style="text-align: center;"><strong>赵祥伟</strong></p>
+<p><strong>赵祥伟，</strong>男，博士，教授。2006年博士毕业于浙江大学。曾先后任日本大阪大学激光工程研究所、美国密歇根大学生物医学工程系、伊利诺大学香槟厄本那分校电子与计算机工程系，哈佛大学医学院访问学者。<strong>现主要研究方向为生物医学检测与传感，研究内容有超构材料、等离激元光学、单细胞分析、表面增强拉曼光谱（</strong><strong>SERS</strong><strong>）、微流控芯片、</strong><strong>POCT</strong><strong>检测芯片与仪器等</strong>。主持或完成国家自然科学基金、863计划、江苏省科技支撑计划等10余项。发表SCI论文40余篇，已授权专利14项，转化专利2项。研究成果获得教育部自然科学一等奖以及日内瓦国际发明展特别金奖。入选教育部新世纪优秀人才、江苏省&ldquo;六大人才高峰&rdquo;高层次人才、江苏省青蓝工程优秀青年骨干教师和东南大学&ldquo;华英学者&rdquo;。</p>
+			<p><strong>Email: </strong><a href="mailto:xwzhao@seu.edu.cn"><strong>xwzhao@seu.edu.cn</strong></a><strong>; </strong><strong>欢迎有光学、电子、化学、生物医学等相关背景同学报考硕士、博士或者合作博士后研究。</strong></p>
+			<p>代表性论文：</p>
+			<p>1)Liu B, Ni HB, Zhang D, Wang DL, Fu DG, Chen HY, Gu ZZ and <strong>Zhao XW</strong>*, Ultrasensitive detection ofprotein with large linear dynamic range based on core-shell SERS nanotags andphotonic crystal beads, ACS Sensor, 2017, 2 (7):1035–1043</p>
+			<p>2)Wang DL, Ni HB, Wang ZQ, Liu B, Chen HY, Gu ZZ and<strong> Zhao XW*</strong>. Discrimination of nosiheptide sources with plasmonicfilters, ACS Applied Materials &amp; Interfaces, 2017, 9 (15), pp 13049–13055</p>
+			<p>3)Liu B, <strong>Zhao X W*</strong>, Jiang W, Fu D G*, and Gu ZZ*, Multiplex bioassays Encoded by photonic crystal beads and SERS nanotags,<em><strong>Nanoscale</strong></em>,2016, 8, 17465 – 17471 (Highlighted Backcover)</p>
+			<p>4)Wang D L, <strong>Zhao X W</strong>*, Liu X, Mu Z D, and Gu Z Z*, Rapid identification ofelectricigens via silver-plated photonic crystal filter,<strong><em>Nano Research</em></strong> 2016, 9(9):2760–2771 (Reported by EurekAlert! Science News, retrieved by virtual journal (http://biomedfrontiers.org/newtech-2016-10-16/))</p>
+			<p>5)MuZ D, <strong>Zhao X W*</strong>, Huang Y, Lu M, Gu ZZ<strong>*</strong>, Photonic Crystal HydrogelEnhanced Plasmonic Staining for Multiplexed Protein Analysis, <strong><em>Small.</em></strong>2015, 11(45): 6036-43（Cover）</p>
+			<p>6)<strong>Zhao X W*</strong>, Xue J Y, Mu Z D, Huang Y, Lu M<strong>*</strong> and Gu Z Z<strong>*</strong>, Gold nanoparticle incorporated inverse opal photonic crystalcapillaries for optofluidic surface enhanced Raman spectroscopy. <strong><em>BiosenBioelectron</em></strong>, 2015, 72: 268-274</p>
+			<p><strong>授权专利：</strong></p>
+			<p>1)赵祥伟，陶庆东，顾忠泽，一种微流控药物筛选芯片，专利号：ZL 201410299838.5</p>
+			<p>2)赵祥伟，杨子学，王晓霞，顾忠泽，陈宝安，一种基于光子编码微球的多元生物标志物检测盒式芯片，专利号：ZL 201310151250.0</p>
+			<p>3)赵祥伟，赵文举，赵远锦，扈靖，顾忠泽，一种基于微球生物检测的微流控芯片，专利号：ZL 200810019394.X</p>
+			<p>4)顾忠泽，赵祥伟，王晓霞，一种用于微球多元生物检测的微流控芯片，专利号：ZL 201310135485.0</p>
+			<p>5)顾忠泽，赵祥伟，刘兆斌，张宏，陆祖宏，一种基于微球的微流控生物芯片，专利号：ZL 200410041366.X</p>
+			<p>6)顾忠泽，赵祥伟，一种纳米金编码的聚合物微球及其制备方法，专利号：ZL 200510040518.9</p>
+			<p>7)顾忠泽，赵祥伟，光子晶体编码微球生物芯片检测装置，专利号：ZL 201120207209.7</p>
+			<p>8)顾忠泽，刘兆斌，赵祥伟，张宏，陆祖宏，利用光子微粒编码的微通道阵列式生物芯片及其应用方法，专利号：ZL 200410041365.5</p>
+			<p>9)顾忠泽，长井圭治，赵祥伟，杨菡，一种珠光颜料编码的聚合物微球及其制备方法，专利号：ZL 200510038438.X</p>
+			<p>10)张继中，顾忠泽，赵祥伟，陆祖宏，以胶体晶体为模版的蛋白质传感敏感膜的制备方法，专利号：ZL 200510040468.4</p>
+			<p>11)顾忠泽，李娟，赵祥伟，赵远锦，扈静, 一种光子晶体复合编码微球的制备方法, 专利号：ZL 200810019395.4</p>
+			<p>12)顾忠泽，扈靖，赵祥伟，赵远锦，以水凝胶为模板胶体晶体为墨水进行微接触图案印刷的方法，专利号：ZL 200710191072.9</p>
+			<p>13)顾忠泽，赵远锦，赵祥伟，扈靖，基于微流体的微球制备方法，专利号：ZL 200810019066.X</p>
+		  <p>14)顾忠泽，唐宝成，赵远锦，赵祥伟，用于单分散乳液制备的重力驱动微流体装置，专利号：ZL 201020556180.9</p>
+  </div>
+  <p>&nbsp;</p>
+	<p>&nbsp;</p>
+	
+  <div class="footer">
+  <p class="foot" align="center">BIO-INSPIRED MATERIALS AND DEVICVES GROUP <br>
+    STATE KEY LABORATORY OF BIOELECTRONICS</p>
+   <p class="foot" align="center">Southeast University<br>
+     Nanjing, China<br>
+   </p>
+  <!-- end .footer --></div>
+<!-- end .container --></div>
+
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
+</html>

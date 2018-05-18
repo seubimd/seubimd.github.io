@@ -1,0 +1,222 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>欢迎来到BIMD！</title>
+<link rel="icon" href="res/wmcte.ico" type="image/x-icon" />
+ <link rel="shortcut icon" href="res/wmcte.ico" type="image/x-icon" />
+<style type="text/css">
+<!--
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #DCDCDC;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+/* ~~ 元素/标签选择器 ~~ */
+ul, ol, dl { /* 由于浏览器之间的差异，最佳做法是在列表中将填充和边距都设置为零。为了保持一致，您可以在此处指定需要的数值，也可以在列表所包含的列表项（LI、DT 和 DD）中指定需要的数值。请注意，除非编写一个更为具体的选择器，否则您在此处进行的设置将会层叠到 .nav 列表。 */
+	padding: 0 0 0 5px;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-bottom: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	line-height: 28px;
+	width: auto;
+	font-size: 16px;
+}
+a img { /* 此选择器将删除某些浏览器中显示在图像周围的默认蓝色边框（当该图像包含在链接中时） */
+	border: none;
+}
+/* ~~ 站点链接的样式必须保持此顺序，包括用于创建悬停效果的选择器组在内。 ~~ */
+a:link {
+	color: #000000;
+	text-decoration: none; /* 除非将链接设置成极为独特的外观样式，否则最好提供下划线，以便可从视觉上快速识别 */
+}
+a:visited {
+	color: #000000;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* 此组选择器将为键盘导航者提供与鼠标使用者相同的悬停体验。 */
+	text-decoration: none;
+}
+
+/* ~~ 此固定宽度容器包含其它 div ~~ */
+.container {
+	width: 960px;
+	background-color: #FFF;
+	margin: 0 auto; /* 侧边的自动值与宽度结合使用，可以将布局居中对齐 */
+}
+
+/* ~~ 标题未指定宽度。它将扩展到布局的完整宽度。标题包含一个图像占位符，该占位符应替换为您自己的链接徽标 ~~ */
+.header {
+	background-color: #ADB96E;
+}
+
+/* ~~ 这是布局信息。 ~~ 
+
+1) 填充只会放置于 div 的顶部和/或底部。此 div 中的元素侧边会有填充。这样，您可以避免使用任何“方框模型数学”。请注意，如果向 div 自身添加任何侧边填充或边框，这些侧边填充或边框将与您定义的宽度相加，得出 *总计* 宽度。您也可以选择删除 div 中的元素的填充，并在该元素中另外放置一个没有任何宽度但具有设计所需填充的 div。
+
+*/
+ 
+.left{ width:200px;  float:left; _margin-right:-3px; background-color: white;}  
+.main{ width:760px; float:left; line-height: 28px;background-color: white;word-wrap:break-word;}   
+.content {
+	padding: 1px 0;
+	
+}
+
+.MenuBarHorizontal {
+    height: 80px;
+	margin: 0 auto;
+}
+.MenuBarHorizontal li.current a{
+	background: #306FAD;
+}
+
+.text {
+	padding: 0px 20px 10px 20px;
+	line-height: 28px;
+	margin-left: 20px;
+	width: auto;
+	font-size: 16px;
+}
+.text1 {
+	padding: 0px 35px 10px 35px;
+	margin: 20 px;
+	line-height: 30px;
+	width: 200px;
+	font-size: 16px;
+}
+.foot {
+	margin-top: 0px;
+	margin-bottom: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+	line-height: 23px;
+	font-size: 12px;
+}
+.w1{
+	width:200px;
+	height:200px;
+	}
+	
+.pic{
+	visibility: hidden;
+}
+
+.footer {
+	padding: 10px 0;
+	background-color: rgba(75,127,185,1.00);
+	font-size: 12px;
+}
+
+/* ~~ 其它浮动/清除类 ~~ */
+.fltrt {  /* 此类可用于在页面中使元素向右浮动。浮动元素必须位于其在页面上的相邻元素之前。 */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* 此类可用于在页面中使元素向左浮动。浮动元素必须位于其在页面上的相邻元素之前。 */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* 如果从 #container 中删除或移出了 #footer，则可以将此类放置在 <br /> 或空 div 中，作为 #container 内最后一个浮动 div 之后的最终元素 */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+-->
+</style>
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+</head
+
+<body>
+<div class="container">
+  <div class="header"><a href="#"><img src="res/logo.jpg" name="Insert_logo" width="960" height="140" id="Insert_logo" style="background-color: #C6D580; display:block;" /></a> 
+    <!-- end .header --></div>
+<div class="content">
+    <ul id="MenuBar1" class="MenuBarHorizontal">
+      <li>
+        <div align="center"><a href="index.html">Home</a></div>
+      </li>
+      <li>
+        <div align="center"><a href="Research.html">Research</a></div>
+      </li>
+      <li>
+        <div align="center"><a href="Paper.html">Paper</a></div>
+      </li>
+      <li class="current">
+        <div align="center"><a href="People.html">People</a></div>
+      </li>
+      <li>
+        <div align="center"><a href="Photo.html">Photo</a></div>
+      </li>
+      <li>
+        <div align="center"><a href="Contactus.html">Contact us</a></div>
+      </li></ul>
+  </div>
+  <div class="left">
+    <p><a href="People.html"><u>教师成员 Teacher</u></a></p>
+    <p style="line-height: 50%"><font color="green"><a href="People.html">顾忠泽</font></a> <a href="zhaoxiangwei.html">赵祥伟 </a><a href="geliqing.html">葛丽芹</a></p>
+    <p style="line-height: 50%"> <a href="xuhua.html">徐华</a> <a href="xiezhuoying.html"><font color="green">谢卓颖 </font></a><a href="zhujijun.html">朱纪军</a></p>
+	<p style="line-height: 50%"><a href="zhucun.html">朱存</a> <a href="duxing.html">杜鑫</a> <a href="cuixingran.html">崔兴然</a></p> 
+	<p style="line-height: 50%"><a href="guhongcheng.html">顾洪成 </a><a href="chenzaozao.html">陈早早</a> <a href="weihongmei.html">魏红梅</a></p> 
+    <p><font color="green"><a href="Student.html"><u>学生成员 Student</u></a></font></p>
+
+    <p><font color="green"><a href="Studentgra.html"><u>已毕业成员 Alumni</u></a></font></p>
+  </div>  
+  <div class="main">
+			<p style="text-align: center;"><img src="res/teacherphoto/xiezhuoying.jpg" width="149" height="208" alt=""></p>
+    <p style="text-align: center;"><strong>谢卓颖</strong></p>
+<p><strong>谢卓颖</strong>，博士，副研究员。1982年生，江苏南通人。2005年6月毕业于东南大学生物科学与医学工程学院，获学士学位。2011年3月在东南大学获得生物医学工程博士学位。2011年3月至今就职于东南大学生物科学与医学工程学院，从事科研和教学工作。</p>
+<p><strong>研究领域和方向：</strong></p>
+<p>1 微纳结构材料与器件<br />
+  2 生物传感与生物成像</p>
+<p>3 即时诊断技术与仪器开发</p>
+<p><strong>科研项目及成果：</strong><strong><br />
+</strong>在<em>J Am. Chem. Soc.</em>、<em>Adv.Mater.</em>、<em>ACSNano</em>、<em>Small</em>、<em>Chem.Soc. Rev.</em>等著名期刊上发表SCI 论文39篇（其中影响因子5.0以上24篇），为The Royal Society ofChemistry撰写著作一章，论文被引360余次。相关的研究成果受到了国际科学媒体和同行的关注，多篇论文并被Nature出版集团的<em>NatureChemistry</em>、<em>NPG-AsiaMaterial</em>、<em>NatureChina</em>以及<em>Scientific American</em>等选为researchhighlight报道。研究成果共申请专利10项，授权4 项。主持国家自然科研基金项目1项，江苏省自然科学基金面上项目1项；参与国家自然科学基金项目3项，军口&ldquo;863&rdquo;项目1项（排名第2，副组长）。</p>
+<p><strong>荣誉及奖励：</strong><br />
+  2014年江苏省&ldquo;青蓝工程&rdquo;优秀青年骨干教师</p>
+<p>2012年东南大学优秀博士学位论文</p>
+<p>2009年宝钢优秀学生奖</p>
+<p><strong>教学：<br />
+</strong>主讲本科生课程&ldquo;微机原理与接口技术&rdquo;、&ldquo;微机实验&rdquo;</p>
+<p><strong>代表性论文：</strong></p>
+<ol>
+  <li>Z. Y. Xie*, L. Bai, S. W.Huang, C. Zhu, Y. J. Zhao, Z.-Z. Gu*, New Strategy for SurfaceFunctionalization of Periodic Mesoporous Silica Based on meso-HSiO1.5,JAm. Chem. Soc., 2014, 136, 1178-1181. (IF: 11.444)</li>
+  <li>Z. Y. Xie, K. D. Cao, Y. J.Zhao*, L. Bai, H. C. Gu, H. Xu, Z.-Z. Gu*, An OpticalNose Chip Based on Mesoporous Colloidal Photonic Crystal Beads, Adv.Mater. 2014, 26, 2413-2418. (IF: 15.409)</li>
+  <li>Z. Y. Xie†,*, L. L. Li†,P. M. Liu, F. Y. Zheng, L. Y. Guo, Y. J. Zhao, L. Jin, T. T. Li, Z. Z. Gu*,Self-assembled Coffee-ring Colloidal Crystal for Structural Colored ContactLens, Small, 2014, DOI: 10.1002/smll. 20140271. (†同等第1作者) (IF: 7.514 ) (封面论文)</li>
+  <li>L. Bai, Z. Y.Xie*, W. Wang, C. W. Yuan*, Y. J. Zhao, Z. D. Mu, Q.F. Zhong, Z.Z. Gu*, Bio-Inspired Vapor-Responsive Colloidal PhotonicCrystal Patterns by Inkjet Printing, ACS Nano, 2014, 8, 11094-11100. (IF:12.033) (Highlighted by ScientificAmerican: Blow on money to tell if it is counterfeit)</li>
+  <li>L. Bai, Z. Y. Xie*, K. D. Cao, Y. J.Zhao, H. Xu, C. Zhu, Z. D. Mu, Q. F. Zhong, Z.-Z. Gu*, HybridMesoporous Colloid Photonic Crystals Array for High Performance Vapor Sensing, Nanoscale,2014, 6, 5680-5685. (IF: 6.739)</li>
+  <li>B. F. Ye, H. B. Ding, Y. Cheng, H. C. Gu, Y. J. Zhao*,Z. Y. Xie*, Z.-Z. Gu*, Photonic crystal microcapsules forlabel-free multiplex detection. Adv. Mater., 2014, 26, 3270-3274. (IF:15.409)</li>
+  <li>Y. J. Zhao†,*, Z. Y. Xie†, H. C.Gu, C. Zhu, Z.-Z. Gu*, Bio-inspired variable structural colormaterials, Chem. Soc. Rev., 2012, 41, 3297-3317. (†同等第一作者) (IF: 30.425)</li>
+  <li>Z. Y. Xie, E. J. Henderson,O. Dag, W. D. Wang, J. E. Lofgreen, C. Kubel, T. Scherer, P. M. Brodersen,Z.-Z. Gu*, G. A. Ozin*, Periodic Mesoporous Hydridosilica– Synthesis of an &ldquo;Impossible&rdquo; Material and its Thermal Transformation intoBrightly Photoluminescent Periodic Mesoporous Nanocrystal Silicon-SilicaComposite, J Am. Chem. Soc., 2011, 133, 5094-5102. <a name="OLE_LINK15"></a><a name="OLE_LINK14"></a>(IF: 11.444) (Highlighted by Nature Chemistry: Nothing isimpossible)</li>
+  <li>Z. Y. Xie, Y. J. Zhao, L.G. Sun, X. W. Zhao, Y. Shao, Z.-Z. Gu*, Photo-bleaching ImmunityEncoded Photonic Suspension Array for Label-Free Multiplex Analysis, Chem.Commun., 2009, 45, 7012-7014. (IF: 6.718)</li>
+  <li>Z. Y. Xie, L. G. Sun, G. Z.Han, Z.-Z. Gu*, Optical Switching of Birefringent Photonic Crystal, Adv.Mater., 2008, 20, 3601-3604. (IF: 15.409) (Highlighted by NPG Asia Materials: Photoniccrystals: Stretching out)</li>
+  <li>Z. B. Liu†,Z. Y. Xie†, X. W. Zhao, Z.-Z. Gu*, PhotonicSuspension Array for Label-Free High-throughput Assay, J Mater. Chem., 2008, 18,3309-3312. (†同等第1作者) (IF: 6.626)</li>
+</ol>
+<p>每年拟招收2-3名硕士研究生，欢迎生物医学工程相关背景的学生报考！</p>
+<p>联系方式：email: <a href="mailto:zyxie@seu.edu.cn">zyxie@seu.edu.cn</a>电话：025-83795632-802</p>
+<p> </p>
+  </div>
+  <p>&nbsp;</p>
+	<p>&nbsp;</p>
+	
+  <div class="footer">
+  <p class="foot" align="center">BIO-INSPIRED MATERIALS AND DEVICVES GROUP <br>
+    STATE KEY LABORATORY OF BIOELECTRONICS</p>
+   <p class="foot" align="center">Southeast University<br>
+     Nanjing, China<br>
+   </p>
+  <!-- end .footer --></div>
+<!-- end .container --></div>
+
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
+</html>
